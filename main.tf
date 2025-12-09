@@ -11,6 +11,6 @@ features {}
 subscription_id = "0276e2c7-d8bc-4a73-b0df-3e9a289f4af4"
 }
 resource "azurerm_resource_group" "rg" {
- name = "ci-cd-rg"
+ name = "ed-ci-cd-rg"
  location = var.location
 }
